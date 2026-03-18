@@ -75,7 +75,7 @@ chmod +x agent_cli_r5.py
 Run the script from within the virtual environment:
 
 ```bash
-./agent_cli_r5.py
+./agent_cli_r5.py --allow "$(pwd)"
 ```
 
 ## 5. Accessing the Program via Browser on the local machine.
